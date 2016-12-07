@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>Adviser</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <script language="javaScript" type="text/javascript" src="/scripts/jquery.min.js"></script>
+  </head>
+  <body>
+	<header>
+		<a href="/signup" class="sign_out">Регистрация</a>
+		<hr class="hr"/>
+	</header>
+	<main>
+	  <div class="container">
+		<div class="row">
+		  <div class="col-sm-6 col-md-4 col-md-offset-4">
+			<div id="message">
+			</div>
+			<h1 class="text-center login-title">Вход
+			  <div class="account-wall"><img src="/images/login.png" class="img"/>
+				<form action="/login" method="POST" class="form-signin">
+				  <input type="text" name="username" placeholder="Логин" required="required" autofocus="autofocus" class="form-control"/>
+				  <input type="password" name="password" placeholder="Пароль" required="required" class="form-control"/>
+				  <button type="submit" class="btn btn-lg btn-primary btn-block">Войти</button><span class="clearfix"></span>
+				</form>
+			  </div>
+			</h1>
+		  </div>
+		</div>
+	  </div>
+	</main>	
+    <footer>
+      <hr class="hr">
+      <p align="center">Penskoy I., BMSTU, 2016.</p>
+    </footer>
+  </body>
+</html>

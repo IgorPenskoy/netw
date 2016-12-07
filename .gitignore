@@ -1,4 +1,9 @@
+*
+!/**/
+!*.*
+!Makefile
 *.exe
 *.bin
 *.so
 *.txt
+*.o
